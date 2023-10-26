@@ -25,7 +25,6 @@ p {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 16px;
-  opacity: 70%;
 }
 
 nav {
@@ -56,6 +55,15 @@ nav li.active a {
   color: var(--secondary-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+.greeting {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 36px;
+}
 .logo {
   max-height: 40px;
 }
@@ -64,10 +72,20 @@ nav li.active a {
   text-align: center;
   padding: 160px 0;
 }
-.greeting {
-  font-family: var(--default-font-family);
+.content-container {
+  padding: 60px 20px;
+}
+.content {
+  margin: 30px;
+}
+
+.content h1 {
+  font-size: 64px;
+}
+
+.content h2 {
+  font-size: 18px;
   font-weight: bold;
-  font-size: 36px;
 }
 
 .btn-branding {
@@ -116,7 +134,7 @@ nav li.active a {
   border-radius: 10px;
 }
 
-.inquiry {
+.footer-header {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 48px;
