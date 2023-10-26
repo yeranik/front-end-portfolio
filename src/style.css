@@ -72,6 +72,21 @@ footer {
   text-align: center;
   padding: 160px 0;
 }
+.content ul {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  line-height: 42px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 24px;
+  list-style: none;
+}
+.content li a {
+  font-size: 14px;
+}
 .content-container {
   padding: 60px 20px;
 }
