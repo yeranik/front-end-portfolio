@@ -111,6 +111,11 @@ footer {
   padding: 15px 30px;
   text-decoration: none;
 }
+.btn-branding:hover {
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  color: var(--secondary-color);
+}
 .project-heading {
   font-family: var(--heading-font-family);
   font-weight: bold;
